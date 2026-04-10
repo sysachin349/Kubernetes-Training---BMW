@@ -5,7 +5,7 @@ Prometheus is a time-series metrics database and monitoring system.
 * ***Collects Metrics →*** scrapes data from apps, services, nodes (using exporters like node_exporter).
 * ***Stores Metrics →*** in a time-series database (optimized for monitoring).
 * ***Querying →*** uses PromQL to analyze metrics.
-* ***lerting →*** integrates with Alertmanager for sending alerts (email, Slack, PagerDuty).
+* ***Alerting →*** integrates with Alertmanager for sending alerts (email, Slack, PagerDuty).
 
 👉 Example: Prometheus scrapes ***/metrics** endpoint of an app and records:
 
