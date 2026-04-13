@@ -32,7 +32,8 @@ In this lab you will:
 3. Click **+ Create** → **+ Create Kubernetes cluster**.
 
  
-<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/ea8bb66c-2e19-4ee8-8838-7c34eb4e2a0b" />
+<img width="1402" height="854" alt="image" src="https://github.com/user-attachments/assets/b14b76c1-4a82-496e-b280-4e877de598f1" />
+
     
 
 ## Task 2 – Configure Basic Cluster Settings
