@@ -55,7 +55,8 @@ You are on the **Basics** tab.
 
   Leave other options at default
   
-<img width="1269" height="901" alt="image" src="https://github.com/user-attachments/assets/badc6ac1-fe3f-4caf-941a-66861e0d45f5" />
+<img width="1269" height="901" alt="image" src="https://github.com/user-attachments/assets/eff13e6b-e6ec-4faf-b8e2-027345da7b16" />
+
 
 Click **Next**
 
@@ -70,7 +71,8 @@ Click **Next**
    - Set **Node count** to `1` or `2` (for lab, `1` is enough and cheaper).
 3. Leave other options at default (System node pool, Virtual Machine scale set).
 
-<img width="1268" height="891" alt="image" src="https://github.com/user-attachments/assets/004f5fa0-6407-4358-ac7c-66a12a488326" />
+<img width="1268" height="891" alt="image" src="https://github.com/user-attachments/assets/a33ac2d6-bdfe-44f4-a01f-210de50dbbee" />
+
 
 
 Click **Next**
@@ -84,7 +86,8 @@ On the **Networking** tab:
    - Choose **Azure CNI** for better integration with Azure services.
 2. Leave other settings as default (new virtual network, default subnets, etc.).
 
-<img width="1271" height="888" alt="image" src="https://github.com/user-attachments/assets/b39adcfc-6375-48e1-a3de-e8e6106f58f6" />
+<img width="1271" height="888" alt="image" src="https://github.com/user-attachments/assets/51e120c3-bd9b-419d-a454-ab403d5742ee" />
+
 
 
 Click **Next: Monitoring** 
@@ -95,7 +98,8 @@ Click **Next: Monitoring**
 1. **Enable Container insights**:  
    -  Enable monitoring for your cluster to track performance metrics and logs.
 
-<img width="1274" height="888" alt="image" src="https://github.com/user-attachments/assets/59b888f7-4725-4810-ac1b-c8e7dac53244" />
+<img width="1274" height="888" alt="image" src="https://github.com/user-attachments/assets/227edd84-f218-496b-9a95-375e8fa8dc70" />
+
 
 `Leave other *options* at default`
 
@@ -112,7 +116,8 @@ Click **Review + create** to validate your configuration.
 
 Click **Go to resource** to open the AKS cluster overview page.
 
-<img width="1910" height="901" alt="image" src="https://github.com/user-attachments/assets/e990ad4c-37be-42ec-961a-57fafcb1e511" />
+<img width="1910" height="901" alt="image" src="https://github.com/user-attachments/assets/8cdbe31c-6741-441f-8e60-948cde5116fc" />
+
 
 
 ## Task 7 – Connect to the AKS Cluster
@@ -130,7 +135,8 @@ az aks get-credentials --resource-group aks-lab-RG --name aks-lab-cluster
 ```bash
 kubectl get nodes
 ```
-<img width="1280" height="546" alt="image" src="https://github.com/user-attachments/assets/df932770-e7a1-4aef-bb0e-4e629609b01e" />
+<img width="1280" height="546" alt="image" src="https://github.com/user-attachments/assets/c6c2394a-039a-41a8-8e49-eefecf6e6551" />
+
 
 You should see list of nodes are in Ready state.
 
